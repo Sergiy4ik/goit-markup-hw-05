@@ -548,9 +548,9 @@ ul {
 }
 
 .modal-overlay {
-    display: flex;
+    /* display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center; */
     position: fixed;
     top: 0;
     left: 0;
@@ -563,8 +563,9 @@ ul {
 
 .modal {
     position: absolute;
-
-    transform: translate(-50% -50%);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     width: 408px;
     min-height: 584px;
     background: #fcfcfc;
