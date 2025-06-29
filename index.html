@@ -418,10 +418,20 @@
           </li>
         </ul>
       </div>
-      <form class="footer-form">
-        <label class="footer-form-title">Subscribe</label>
-        <input class="footer-form-input" type="text" name="subscribe" placeholder="E-mail">
-      </form>
+      <div class="footer-form-container">
+        <p class="footer-form-p">Subscribe</p>
+        <form class="footer-form">
+          <label class="footer-form-label">
+            <input class="footer-form-input" type="email" name="subscribe" placeholder="E-mail">
+          </label>
+          <button class="footer-form-button" type="submit">Subscribe
+            <svg width="24px" height="24px" class="footer-form-svg">
+              <use href="./images/icons.svg#icon-fly">
+              </use>
+            </svg>
+          </button>
+        </form>
+      </div>
     </div>
 
   </footer>
