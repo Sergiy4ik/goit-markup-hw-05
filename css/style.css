@@ -484,18 +484,22 @@ ul {
     fill: #f4f4fd;
 }
 
-.footer-form {
-    display: block;
+.footer-form-container {
     margin-left: 80px;
-
 }
 
-.footer-form-title {
+.footer-form {
+    display: flex;
+    gap: 24px;
+}
+
+.footer-form-p {
     font-weight: 500;
     font-size: 16px;
     line-height: 150%;
     letter-spacing: 0.02em;
     color: #fff;
+    margin-bottom: 16px;
 }
 
 .footer-form-input {
@@ -507,7 +511,38 @@ ul {
     padding-left: 16px;
     padding-top: 8px;
     padding-bottom: 8px;
-    background-color: rgba(0, 0, 0, 0);
+    background-color: transparent;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 200%;
+    letter-spacing: 0.04em;
+    color: #fff;
+}
+
+.footer-form-input::placeholder {
+    color: #FFFFFF;
+}
+
+.footer-form-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    border-radius: 4px;
+    padding: 8px 24px;
+    min-width: 165px;
+    height: 40px;
+    background-color: #4d5ae5;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.04em;
+    text-align: center;
+    color: #fff;
+    cursor: pointer;
+}
+
+.footer-form-svg {
+    margin-left: 16px;
 }
 
 
