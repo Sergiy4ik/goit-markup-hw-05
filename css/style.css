@@ -682,9 +682,16 @@ ul {
     border-color: #4D5AE5;
 }
 
-.footer-form-input-checkbox:checked + .checkbox-span {
+.checkbox-container {
+    margin-bottom: 24px;
+}
+
+.footer-form-input-checkbox:checked + .footer-form-label-checkbox .checkbox-span {
     background-color: #404bbf;
     border: none;
+}
+
+.footer-form-input-checkbox:checked + .checkbox-span {
     fill: #F4F4FD;
 }
 
@@ -710,4 +717,8 @@ ul {
     justify-content: center;
     align-items: center;
     fill: transparent;
+}
+
+.checkbox-link {
+    color: #4d5ae5;
 }
