@@ -691,7 +691,7 @@ ul {
     border: none;
 }
 
-.footer-form-input-checkbox:focus + .checkbox-svg{
+.footer-form-input-checkbox:checked + .footer-form-label-checkbox .checkbox-span {
     fill: #F4F4FD;
 }
 
